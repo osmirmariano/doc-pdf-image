@@ -1,0 +1,23 @@
+{
+  "name": "doc-pdf-image",
+  "version": "1.0.0",
+  "description": "Biblioteca para converter arquivos de doc, docx para pdf e imagem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osmirmariano/doc-pdf-image.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osmirmariano/doc-pdf-image/issues"
+  },
+  "homepage": "https://github.com/osmirmariano/doc-pdf-image#readme",
+  "dependencies": {
+    "libreoffice-convert": "^1.3.2"
+  }
+}
