@@ -1,8 +1,8 @@
 {
   "name": "doc-pdf-image",
-  "version": "1.0.0",
+  "version": "1.0.10",
   "description": "Biblioteca para converter arquivos de doc, docx para pdf e imagem",
-  "main": "index.js",
+  "main": "./lib/doc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
