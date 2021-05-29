@@ -6,7 +6,7 @@ Converter DOC, DOCX para PDF
 ```js
 const docPdfImage = require('doc-pdf-image');
 
-let conversao = await docPdfImage.docToPdf('./exemplo/exemplo.eml');
+let conversao = await docPdfImage.docToPdf('./exemplo/exemplo.doc');
 conversao.success ? 'Arquivo convertido com sucesso' : 'Não foi possível converter';
 ```
 
@@ -14,7 +14,7 @@ Converter DOC, DOCX para IMAGEM (JEPG)
 ```js
 const docPdfImage = require('doc-pdf-image');
 
-let conversao = await docPdfImage.docToImage('./exemplo/exemplo.eml');
+let conversao = await docPdfImage.docToImage('./exemplo/exemplo.doc');
 conversao.success ? 'Arquivo convertido com sucesso' : 'Não foi possível converter'
 ```
 
